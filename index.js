@@ -9,7 +9,7 @@ const authRoute = require("./Routes/auth");
 
 dotenv.config();
 
-mongoose.connect(process.env.MONGO_URL, )
+mongoose.connect(proces.env.MONGO_URL, )
     .then(() => console.log('Connected Successfully'))
     .catch((err) => { console.error(err); 
 });
